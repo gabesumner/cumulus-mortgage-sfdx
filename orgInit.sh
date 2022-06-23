@@ -17,8 +17,8 @@ sfdx force:user:permsetlicense:assign -n "Mortgage"
 sfdx force:user:permset:assign -n cumulus
 
 # Import the data required by the demo
-# sfdx texei:data:export --objects Account,Contact,Opportunity,ResidentialLoanApplication --outputdir ./data
-sfdx texei:data:import --inputdir ./data
+# sfdx automig:dump --objects Account,Contact,Opportunity,ResidentialLoanApplication --outputdir ./data
+sfdx automig:load --inputdir ./data
 
 # Activate the custom theme.
 sfdx shane:theme:activate -n CumulusMortgage
