@@ -1,0 +1,13 @@
+{
+  "orgName": "Mortgage Application",
+  "edition": "Enterprise",
+  "features": ["EnableSetPasswordInApi", "PersonAccounts", "ContactsToMultipleAccounts", "FinancialServicesUser:5", "IndustriesActionPlan"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}
